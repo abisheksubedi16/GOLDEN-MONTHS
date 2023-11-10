@@ -1,0 +1,74 @@
+/*.heart {
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 750px;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+
+.heart1,
+.heart2 {
+    border-radius: 70% 70% 0px 0px;
+    margin: 10px;
+    margin-left: 26.5px;
+    height: 450px;
+    width: 300px;
+    position: relative;
+    left: 30px;
+
+}
+
+.heart1 {
+    background-color: rgb(255, 0, 0);
+    transform: rotate(-45deg);
+}
+
+.heart2 {
+    background-color: rgb(255, 0, 0);
+    transform: rotate(45deg);
+}
+
+.square {
+    position: absolute;
+    left: 717.4px;
+top: 523.5px;
+    background-color: rgb(255, 0, 0);
+    height: 165px;
+    width: 165px;
+    transform: rotate(45deg);
+
+}*/
+img{
+    height: 300px;
+    visibility:hidden;
+    
+}
+.fh{
+    margin-right: -300px;
+    position: relative;
+    top: -1px;
+}
+.heart{
+    
+    right: 650px;
+    overflow: hidden;
+}
+.heart:hover .fh{
+    visibility: hidden;
+    margin-right: 300px;
+    transition: 1s;
+}
+.heart:hover .sh{
+    visibility: hidden;
+   
+    transition: 1s;
+}
+p{
+    font: 200px;
+}
+@media (max-width:300px){
+    body{
+        background-color: red;
+    }
+}

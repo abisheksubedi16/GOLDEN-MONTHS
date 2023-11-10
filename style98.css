@@ -1,0 +1,16 @@
+@media (max-width:300px){
+    body{
+        background-color: red;
+    }
+    }
+    p{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    input{
+        height: 30px;
+        width: 300px;
+        font-size: 30px;
+    }
