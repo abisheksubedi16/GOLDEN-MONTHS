@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(6, 196, 196);
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.head{
+    font-size: 75px;
+}
+.advo{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hr1{
+    position: relative;
+    top: -50px;
+}
+p{
+    cursor: pointer;
+}
+p:hover{
+    font-size: 25px;
+    border-radius: 0px;
+    transition: .5s;
+    background-color: rgb(226, 226, 226);
+}
+.firstp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(61, 253, 253);
+}
+.secondp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(52, 52, 247);
+}
+.thirdp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(137, 217, 248);
+}
+.fourthp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(69, 69, 136);
+}
+.fifthp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(0, 66, 66);
+}
+.foot2{
+    font-size: 50px;
+}
+
+
+.buttombtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.buttombtn{
+    background-color: teal;
+    height: 30px;
+    width: 55px;
+    padding: 2%;
+    margin: 5%;
+    cursor: pointer;
+    border-radius: 30%;
+}
+.buttombtn:hover{
+    background-color: rgb(0, 109, 109);
+border-radius: 5px;
+transition: .5s;
+}
+.buttom{
+    display: flex;
+}
+.buttombtn sup{
+    font-size: 10px;
+}
